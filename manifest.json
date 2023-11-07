@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Test Connection",
+  "Author": "Kacie Reburn",
+  "Version": "1.0.0",
+  "Description": "Testing the connection between game and code",
+  "UniqueID": "KacieReburn.TestStardewConnection",
+  "EntryDll": "TestStardewConnection.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
