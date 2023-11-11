@@ -1,0 +1,20 @@
+﻿{
+  "Format": "1.7",
+
+  "Changes": [
+
+    {
+      "Action": "EditImage",
+      "Target": "Animals/Brown Chicken",
+      "FromFile": "Assets/Chickens/BrownChickenSprites.png"     
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Animals/White Chicken",
+      "FromFile": "Assets/Chickens/BeigeChickenSprites.png"
+    }
+
+  ]
+
+}
