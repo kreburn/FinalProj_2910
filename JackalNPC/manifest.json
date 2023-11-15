@@ -1,0 +1,10 @@
+{
+    "Name": "Jackal NPC",
+    "Author": "Kacie",
+    "Version": "1.0.0",
+    "Description": "Moody girl",
+    "UniqueID": "Kacie.Jackal",
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

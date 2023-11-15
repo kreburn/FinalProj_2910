@@ -1,0 +1,227 @@
+
+{
+    "Changes": [
+    {
+        "LogName": "1 Load Jackal Disposition",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "Entries": {
+        "Jackal": "adult/rude/outgoing/positive/female/datable//Other/spring 18//ManorHouse 2 8/Jackal"
+                }
+    },
+
+    {
+        
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "Entries": {
+          "Jackal": "{{i18n:gifts.Jackal.love}}/224 787 444 551/{{i18n:gifts.Jackal.like}}/254 346 348 349 392 394/{{i18n:gifts.Jackal.dislike}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/{{i18n:gifts.Jackal.hate}}/205 404 420 422 609 610 196 213 218 219 225 403/{{i18n:gifts.Jackal.neutral}}/184 186 180 182 174 176 424 426/"
+        }
+    },
+
+    {
+        "LogName": "1 Load Jackal Char",
+        "Action": "Load",
+        "Target": "Characters/Jackal",
+        "FromFile": "assets/Characters/JackalSprite.png"
+    },
+
+    {
+        "LogName": "1 Load Jackal Port",
+        "Action": "Load",
+        "Target": "Portraits/Jackal",
+        "FromFile": "assets/Portraits/JackalPort.png"
+    },
+
+    {
+        "LogName": "1Load Schedule",
+        "Action": "Load",
+        "Target": "Characters/schedules/Jackal",
+        "FromFile": "data/Schedule.json"
+    },
+
+    {
+        "LogName": "Spouse Room",
+        "Action": "EditData",
+        "Target": "Data/SpouseRooms",
+        "Entries": {
+            "Jackal": "spouseRooms/4"
+  
+        }
+    },
+  
+    {
+          "LogName": "Spouse Patio",
+          "Action": "EditData",
+          "Target": "Data/SpousePatios",
+          "Entries": {
+              "Jackal": "spousePatios/4"
+  
+          }
+      },
+
+      {        
+        "Action": "EditData",
+        "Target": "Data/EngagementDialogue",
+        "Entries": {
+          "Jackal": "{{i18n:Jackal.engagement0}}",
+          "Jackal1": "{{i18n:Jackal.engagement1}}"
+        }
+      },
+
+      { 
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Jackal": "{{i18n:eggfestival.jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Jackal": "{{i18n:eggfestival.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Jackal": "{{i18n:flowerdance.Jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Jackal": "{{i18n:flowerdance.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Jackal": "{{i18n:luau.Jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Jackal": "{{i18n:luau.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Jackal": "{{i18n:moonlight.Jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Jackal": "{{i18n:moonlight.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Jackal": "{{i18n:fair.Jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Jackal": "{{i18n:fair.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Jackal": "{{i18n:spirit.Jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Jackal": "{{i18n:spirit.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "When": {
+        "IsOddYear": false
+      },
+      "Entries": {
+        "Jackal": "{{i18n:spirit.Jackal.3}}"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Jackal": "{{i18n:ice.Jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Jackal": "{{i18n:ice.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Jackal": "{{i18n:winterstar.Jackal.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Jackal": "{{i18n:winterstar.Jackal.2}}"
+      },
+      "When": {
+        "Spouse": "Jackal"
+      }
+    }
+
+    ]
+}
