@@ -1,0 +1,745 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "assets/Dialogue/MarriageDialogue.json",
+        "Entries": {
+          
+          "patio_Jackal": "{{i18n:Jackal.MarriageDialogue.001}}",
+          "spouseRoom_Jackal": "{{i18n:Jackal.MarriageDialogue.002}}",
+          "funReturn_Jackal": "{{i18n:Jackal.MarriageDialogue.003}}",
+          "funLeave_Jackal": "{{i18n:Jackal.MarriageDialogue.004}}",
+          "OneKid_0": "{{i18n:Jackal.MarriageDialogue.005}}",
+          "OneKid_1": "{{i18n:Jackal.MarriageDialogue.006}}",
+          "OneKid_2": "{{i18n:Jackal.MarriageDialogue.007}}",
+          "OneKid_3": "{{i18n:Jackal.MarriageDialogue.008}}",
+          "OneKid_4": "{{i18n:Jackal.MarriageDialogue.009}}",
+          "TwoKids_0": "{{i18n:Jackal.MarriageDialogue.010}}",
+          "TwoKids_1": "{{i18n:Jackal.MarriageDialogue.011}}",
+          "TwoKids_2": "{{i18n:Jackal.MarriageDialogue.012}}",
+          "TwoKids_3": "{{i18n:Jackal.MarriageDialogue.013}}",
+          "TwoKids_4": "{{i18n:Jackal.MarriageDialogue.014}}",
+         
+          "spring_Jackal": "{{i18n:Jackal.MarriageDialogue.015}}",
+          "spring_1": "{{i18n:Jackal.MarriageDialogue.016}}",
+          "spring_13": "{{i18n:Jackal.MarriageDialogue.017}}",
+          "spring_24": "{{i18n:Jackal.MarriageDialogue.018}}",
+          "summer_Jackal": "{{i18n:Jackal.MarriageDialogue.019}}",
+          "summer_1": "{{i18n:Jackal.MarriageDialogue.020}}",
+          "summer_11": "{{i18n:Jackal.MarriageDialogue.021}}",
+          "summer_28": "{{i18n:Jackal.MarriageDialogue.022}}",
+          "fall_Jackal": "{{i18n:Jackal.MarriageDialogue.023}}",
+          "fall_1": "{{i18n:Jackal.MarriageDialogue.024}}",
+          "fall_16": "{{i18n:Jackal.MarriageDialogue.025}}",
+          "fall_27": "{{i18n:Jackal.MarriageDialogue.026}}",
+          "winter_Jackal": "{{i18n:Jackal.MarriageDialogue.027}}",
+          "winter_1": "{{i18n:Jackal.MarriageDialogue.028}}",
+          "winter_8": "{{i18n:Jackal.MarriageDialogue.029}}",
+          "winter_12": "{{i18n:Jackal.MarriageDialogue.030}}",
+          "winter_25": "{{i18n:Jackal.MarriageDialogue.031}}",
+          
+          "Indoor_Day_Jackal": "{{i18n:Jackal.MarriageDialogue.032}}",
+          "Indoor_Day_0": "{{i18n:Jackal.MarriageDialogue.033}}",
+          "Indoor_Day_1": "{{i18n:Jackal.MarriageDialogue.034}}",
+          "Indoor_Day_2": "{{i18n:Jackal.MarriageDialogue.035}}",
+          "Indoor_Day_3": "{{i18n:Jackal.MarriageDialogue.036}}",
+          "Indoor_Day_4": "{{i18n:Jackal.MarriageDialogue.037}}",
+          "Outdoor_Jackal": "{{i18n:Jackal.MarriageDialogue.038}}",
+          "Outdoor_0": "{{i18n:Jackal.MarriageDialogue.039}}",
+          "Outdoor_1": "{{i18n:Jackal.MarriageDialogue.040}}",
+          "Outdoor_2": "{{i18n:Jackal.MarriageDialogue.041}}",
+          "Outdoor_3": "{{i18n:Jackal.MarriageDialogue.042}}",
+          "Outdoor_4": "{{i18n:Jackal.MarriageDialogue.043}}",
+          "Rainy_Day_0": "{{i18n:Jackal.MarriageDialogue.044}}",
+          "Rainy_Day_1": "{{i18n:Jackal.MarriageDialogue.045}}",
+          "Rainy_Day_2": "{{i18n:Jackal.MarriageDialogue.046}}",
+          "Rainy_Day_3": "{{i18n:Jackal.MarriageDialogue.047}}",
+          
+          "indoor_Night_Jackal": "{{i18n:Jackal.MarriageDialogue.048}}",
+          "Indoor_Night_0": "{{i18n:Jackal.MarriageDialogue.049}}",
+          "Indoor_Night_1": "{{i18n:Jackal.MarriageDialogue.050}}",
+          "Indoor_Night_2": "{{i18n:Jackal.MarriageDialogue.051}}",
+          "Indoor_Night_3": "{{i18n:Jackal.MarriageDialogue.052}}",
+          "Indoor_Night_4": "{{i18n:Jackal.MarriageDialogue.053}}",
+          "Rainy_Night_Jackal": "{{i18n:Jackal.MarriageDialogue.054}}",
+          "Rainy_Night_0": "{{i18n:Jackal.MarriageDialogue.055}}",
+          "Rainy_Night_1": "{{i18n:Jackal.MarriageDialogue.056}}",
+          "Rainy_Night_2": "{{i18n:Jackal.MarriageDialogue.057}}",
+          "Rainy_Night_3": "{{i18n:Jackal.MarriageDialogue.058}}",
+          "Rainy_Night_4": "{{i18n:Jackal.MarriageDialogue.059}}",
+          
+          "Good_0": "{{i18n:Jackal.MarriageDialogue.060}}",
+          "Good_1": "{{i18n:Jackal.MarriageDialogue.061}}",
+          "Good_2": "{{i18n:Jackal.MarriageDialogue.062}}",
+          "Good_3": "{{i18n:Jackal.MarriageDialogue.063}}",
+          "Good_4": "{{i18n:Jackal.MarriageDialogue.064}}",
+          "Good_5": "{{i18n:Jackal.MarriageDialogue.065}}",
+          "Good_6": "{{i18n:Jackal.MarriageDialogue.066}}",
+          "Good_7": "{{i18n:Jackal.MarriageDialogue.067}}",
+          "Good_8": "{{i18n:Jackal.MarriageDialogue.068}}",
+          "Good_9": "{{i18n:Jackal.MarriageDialogue.069}}",
+          "Neutral_0": "{{i18n:Jackal.MarriageDialogue.070}}",
+          "Neutral_1": "{{i18n:Jackal.MarriageDialogue.071}}",
+          "Neutral_2": "{{i18n:Jackal.MarriageDialogue.072}}",
+          "Neutral_3": "{{i18n:Jackal.MarriageDialogue.073}}",
+          "Neutral_4": "{{i18n:Jackal.MarriageDialogue.074}}",
+          "Neutral_5": "{{i18n:Jackal.MarriageDialogue.075}}",
+          "Neutral_6": "{{i18n:Jackal.MarriageDialogue.076}}",
+          "Neutral_7": "{{i18n:Jackal.MarriageDialogue.077}}",
+          "Neutral_8": "{{i18n:Jackal.MarriageDialogue.078}}",
+          "Neutral_9": "{{i18n:Jackal.MarriageDialogue.079}}",
+          "Bad_0": "{{i18n:Jackal.MarriageDialogue.080}}",
+          "Bad_1": "{{i18n:Jackal.MarriageDialogue.081}}",
+          "Bad_2": "{{i18n:Jackal.MarriageDialogue.082}}",
+          "Bad_3": "{{i18n:Jackal.MarriageDialogue.083}}",
+          "Bad_4": "{{i18n:Jackal.MarriageDialogue.084}}",
+          "Bad_5": "{{i18n:Jackal.MarriageDialogue.085}}",
+          "Bad_6": "{{i18n:Jackal.MarriageDialogue.086}}",
+          "Bad_7": "{{i18n:Jackal.MarriageDialogue.087}}",
+          "Bad_8": "{{i18n:Jackal.MarriageDialogue.088}}",
+          "Bad_9": "{{i18n:Jackal.MarriageDialogue.089}}"
+        }
+      },
+      
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 2"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 3"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 4"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 6"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 9"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 10"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 11"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 13"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 16"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 17"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 18"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 20"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 23"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 24"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 25"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Spring 27"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 2"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 3"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 4"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 6"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 9"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 10"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 11"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 13"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 16"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 17"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 18"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 20"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 23"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 24"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 25"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Summer 27"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 2"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 3"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 4"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 6"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 9"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 10"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 11"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 13"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 16"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 17"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 18"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 20"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 23"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 24"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 25"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Fall 27"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 2"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 3"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 4"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 6"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 9"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 10"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 11"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 13"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 16"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 17"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 18"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 20"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 23"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary1}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 24"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary2}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 25"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary3}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJackal",
+        "When": {
+          "Date": "Winter 27"
+        },
+        "Entries": {
+          "spouseRoom_Jackal": "{{i18n:Jackal.SpouseVary4}}"
+        }
+      }
+    ]
+  }

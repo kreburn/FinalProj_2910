@@ -1,5 +1,5 @@
-
 {
+    "Format": "1.24",
     "Changes": [
     {
         "LogName": "1 Load Jackal Disposition",
@@ -15,72 +15,79 @@
         "Action": "EditData",
         "Target": "Data/NPCGiftTastes",
         "Entries": {
-          "Jackal": "{{i18n:gifts.Jackal.love}}/224 787 444 551/{{i18n:gifts.Jackal.like}}/254 346 348 349 392 394/{{i18n:gifts.Jackal.dislike}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/{{i18n:gifts.Jackal.hate}}/205 404 420 422 609 610 196 213 218 219 225 403/{{i18n:gifts.Jackal.neutral}}/184 186 180 182 174 176 424 426/"
+          "Jackal": "I’m going to kiss you on the mouth./224 787 444 551/Oh this is sick!/254 346 348 349 392 394/Hm. Do better./18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/Wow, I hate it! I’m going to like you less from now on./205 404 420 422 609 610 196 213 218 219 225 403/Oh? A gift? Thanks I suppose. Next time grab me some glass./184 186 180 182 174 176 424 426/"
         }
     },
 
     {
-        "LogName": "1 Load Jackal Char",
+        "LogName": "Jackal Sprites",
         "Action": "Load",
         "Target": "Characters/Jackal",
-        "FromFile": "assets/Characters/JackalSprite.png"
+        "FromFile": "assets/Image/Sprite.png"
     },
 
     {
-        "LogName": "1 Load Jackal Port",
+        "LogName": "Jackal Portraits",
         "Action": "Load",
         "Target": "Portraits/Jackal",
-        "FromFile": "assets/Portraits/JackalPort.png"
+        "FromFile": "assets/Image/Jackal.png"
     },
 
     {
-        "LogName": "1Load Schedule",
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Jackal",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json"
+    },
+
+    {
+        "LogName": "Load Schedule",
         "Action": "Load",
-        "Target": "Characters/schedules/Jackal",
-        "FromFile": "data/Schedule.json"
+        "Target": "Character/schedules/Jackal",
+        "FromFile": "assets/Schedule/Schedule.json"
     },
 
     {
-        "LogName": "Spouse Room",
-        "Action": "EditData",
-        "Target": "Data/SpouseRooms",
-        "Entries": {
-            "Jackal": "spouseRooms/4"
-  
-        }
-    },
-  
-    {
-          "LogName": "Spouse Patio",
-          "Action": "EditData",
-          "Target": "Data/SpousePatios",
-          "Entries": {
-              "Jackal": "spousePatios/4"
-  
-          }
-      },
 
-      {        
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Jackal",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+
+    {        
         "Action": "EditData",
         "Target": "Data/EngagementDialogue",
         "Entries": {
-          "Jackal": "{{i18n:Jackal.engagement0}}",
-          "Jackal1": "{{i18n:Jackal.engagement1}}"
+          "Jackal": "I'm a little nervous about this? Aren't you?$4",
+          "Jackal1": "To think I couldn't be anymore happier...$4"
         }
-      },
+    },
 
-      { 
+    { 
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Jackal": "{{i18n:eggfestival.jackal.1}}"
+        "Jackal": "I'm wearing my best slacks and dress shirt today.$1"
       }
     },
+
     {
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Jackal": "{{i18n:eggfestival.Jackal.2}}"
+        "Jackal": "Hey, honey! Good luck hunting eggs today.$1#$e#Show those children who's boss.$3"
       },
       "When": {
         "Spouse": "Jackal"
@@ -91,14 +98,14 @@
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Jackal": "{{i18n:flowerdance.Jackal.1}}"
+        "Jackal": "This strawberry jello is truly remarkable.$3"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Jackal": "{{i18n:flowerdance.Jackal.2}}"
+        "Jackal": "I always do enjoy our little trips out into the forest.$1#$b#Kinda wish we did this more often with everyone.$3"
       },
       "When": {
         "Spouse": "Jackal"
@@ -109,14 +116,14 @@
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Jackal": "{{i18n:luau.Jackal.1}}"
+        "Jackal": "My mother and I just threw in some of our most expensive wine. It should make the soup taste delicious.$1#$e#I don't think any of the children can have any now though. Whoops.$2"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Jackal": "{{i18n:luau.Jackal.2}}"
+        "Jackal": "We should sit next to each other and eat our soup!$4#$e#We can drink a glass of my mother's vintage wine with it!$1"
       },
       "When": {
         "Spouse": "Jackal"
@@ -127,14 +134,14 @@
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Jackal": "{{i18n:moonlight.Jackal.1}}"
+        "Jackal": "These moonlight jellies travel here all the way from across the world.$3#$b#They were at the Fern Islands just a few months ago.$1"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Jackal": "{{i18n:moonlight.Jackal.2}}"
+        "Jackal": "I'd like to hold your hand while looking out at the moonlight jellies.$4#$e#I love you, @.$4"
       },
       "When": {
         "Spouse": "Jackal"
@@ -145,14 +152,14 @@
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Jackal": "{{i18n:fair.Jackal.1}}"
+        "Jackal": "That clown is only juggling one ball... How odd.$0#$e#I might go look at the grange displays soon. This is getting boring.$2#$e#Have you set your display up?$1"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Jackal": "{{i18n:fair.Jackal.2}}"
+        "Jackal": "Hey there, honey! I hope you do well in the grange display contest!$4"
       },
       "When": {
         "Spouse": "Jackal"
@@ -163,14 +170,14 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Jackal": "{{i18n:spirit.Jackal.1}}"
+        "Jackal": "Uhh... there's a skeleton monster patrolling in there by those graves.$2"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Jackal": "{{i18n:spirit.Jackal.2}}"
+        "Jackal": "Be careful in there, honey! There's a monster!$7"
       },
       "When": {
         "Spouse": "Jackal"
@@ -179,11 +186,8 @@
     {
       "Action": "EditData",
       "Target": "data/festivals/fall27",
-      "When": {
-        "IsOddYear": false
-      },
       "Entries": {
-        "Jackal": "{{i18n:spirit.Jackal.3}}"
+        "Jackal": "These monsters are quite fascinating.$1#$e#Perhaps I'll try to converse with the Castle Village adventurers tonight...$0#$b#They're bound to have some cool adventuring stories.$3"
       }
     },
     
@@ -191,14 +195,14 @@
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Jackal": "{{i18n:ice.Jackal.1}}"
+        "Jackal": "I must say, I'm looking forward to seeing Willy show off his fishing skills.$1#$b#You can tell how talented he is. He's been fishing all of his life!$3"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Jackal": "{{i18n:ice.Jackal.2}}"
+        "Jackal": "Good luck in the fishing contest, sweetheart. You're going to do great!$4#$e#I'll be cheering for you!$1"
       },
       "When": {
         "Spouse": "Jackal"
@@ -209,14 +213,14 @@
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Jackal": "{{i18n:winterstar.Jackal.1}}"
+        "Jackal": "I wonder if I should give them the gift now?$0#$e#Timing is everything!$1"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Jackal": "{{i18n:winterstar.Jackal.2}}"
+        "Jackal": "I got them coal."
       },
       "When": {
         "Spouse": "Jackal"
