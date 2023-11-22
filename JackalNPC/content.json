@@ -6,7 +6,7 @@
         "Action": "EditData",
         "Target": "Data/NPCDispositions",
         "Entries": {
-        "Jackal": "adult/rude/outgoing/positive/female/datable//Other/spring 18//ManorHouse 2 8/Jackal"
+        "Jackal": "adult/rude/outgoing/positive/female/datable//Town/spring 18//Saloon 40 17/Jackal"
                 }
     },
 
@@ -15,7 +15,7 @@
         "Action": "EditData",
         "Target": "Data/NPCGiftTastes",
         "Entries": {
-          "Jackal": "I’m going to kiss you on the mouth./224 787 444 551/Oh this is sick!/254 346 348 349 392 394/Hm. Do better./18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/Wow, I hate it! I’m going to like you less from now on./205 404 420 422 609 610 196 213 218 219 225 403/Oh? A gift? Thanks I suppose. Next time grab me some glass./184 186 180 182 174 176 424 426/"
+          "Jackal": "I’m going to kiss you on the mouth.$l/118 80 82 338 184/Oh this is sick!/-2 -12 -15 -28/Hm. Do better.$s/18 -24 -22/Wow, I hate it! I’m going to like you less from now on.$h/215 260 482 281/Oh? A gift? Thanks I suppose. Next time grab me some glass./330/"
         }
     },
 
@@ -50,10 +50,10 @@
     },
 
     {
-        "LogName": "Load Schedule",
-        "Action": "Load",
-        "Target": "Character/schedules/Jackal",
-        "FromFile": "assets/Schedule/Schedule.json"
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Jackal",
+      "FromFile": "assets/JackalSchedule.json" 
     },
 
     {
@@ -61,25 +61,79 @@
       "LogName": "Schedule Dialogue",
       "Action": "Load",
       "Target": "Strings/schedules/Jackal",
-      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+      "FromFile": "assets/ScheduleDialogue.json"
 
     },
 
+    {
+      "LogName": "Unique Rejections",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jackal",
+      "Entries": {
+        "give_flowersA": "Woah…really @? That’s amazing! I have flowers for you too!$h#$b#We’re dating now. $l", 
+        "give_flowersB": "I absolutely accept! You’re the best, @.$l", 
+        "give_pendant": "!!!$7#$b#You... you want to get married? Is this you proposing to me, @!?$l#$b#Oh my gosh I gotta tell Clint I’m moving out this is so exciting!!$h", 
+        "rejectNPCA": "Uhh... no thanks, @.$0", 
+        "rejectNPCB": "Yeah no way dude. $k#$e#Could you leave me alone now?", 
+        "reject_two_heartA":  "Yeah uh…this is awkward. I don’t feel the same.$7", 
+        "reject_two_heartB": "I don’t really know you all that well @, get those flowers out of my face and go home.$k#$b#Or go to the saloon. Drink your sorrows away or something.$9", 
+        "reject_four_heartA": "I think you’re pretty cool but, I’m not so sure yet @. Sorry.", 
+        "reject_four_heartB": "Oh um, no thank you. I can’t even commit to one favorite ore right now.$k#$b#Bummer.", 
+        "engageA": "Yikes. $9", 
+        "engageB": "Oh so you’re a cheater, you filthy- censored$a#$e#%Her censored rage continues",  
+        "marriedA": "@? What in the world are you doing? Just stop. $a", 
+        "marriedB": "You want to marry me? You're already married, @.$a#$e#@. Are you drunk or something? Go away before I tell your spouse.$a", 
+        "refusal_knownA": "Maybe slow your roll a little bit. Chill out.", 
+        "refusal_knownB": "It's a little too early for this, don't you think?$0#$e#I appreciate the thought, @.", 
+        "refusal_botherA": "Uhh... It's still a no, @. Sorry.$0", 
+        "refusal_botherB": "Perhaps some day.$1", 
+        "refusal_no_heartsA": "Hmph. I could make a better pendant than that. $9#$b#Where’d you get that anyway?", 
+        "refusal_no_heartsB": "So. Here's what's going to happen: I am going to walk away and pretend you never did that."
+      }
+    },
 
     {        
         "Action": "EditData",
         "Target": "Data/EngagementDialogue",
         "Entries": {
-          "Jackal": "I'm a little nervous about this? Aren't you?$4",
-          "Jackal1": "To think I couldn't be anymore happier...$4"
+          "Jackal": "I'm gonna look so hot in a wedding dress. $h",
+          "Jackal1": "Oh, yeah, I'm super excited to get married too. $l"
         }
+    },
+
+    //egg fest
+    { 
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+            ],
+            "Value": "Jackal 24 76 up",
+            "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+            ],
+            "Value": "Jackal 22 67 right",
+            "Delimiter": "/"
+        }
+
+        ]
+
     },
 
     { 
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Jackal": "I'm wearing my best slacks and dress shirt today.$1"
+        "Jackal": "I wasn't allowed to participate because I'm 'too old'.#$b#Why are you allowed to do it though??$9"
       }
     },
 
@@ -87,97 +141,209 @@
       "Action": "EditData",
       "Target": "data/festivals/spring13",
       "Entries": {
-        "Jackal": "Hey, honey! Good luck hunting eggs today.$1#$e#Show those children who's boss.$3"
+        "Jackal": "Hey, hun! Good luck hunting eggs today.$1#$e#Show those children who's boss.$3#$e#Kick their as- butts."
       },
       "When": {
         "Spouse": "Jackal"
       }
     },
+
+    //flower dance
+    { 
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "Entries": {
+                "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 2 0 4 25000 -2 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 7000 4 0 2 8000 -4 0/playerControl flowerFestival",
+                "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 14 31/warp farmer2 11 21/warp farmer3 23 21/warp farmer4 12 21/faceDirection farmer1 0/faceDirection farmer3 2/faceDirection farmer4 2/faceDirection farmer 0/warp Girl1 13 24/warp Girl2 15 24/warp Girl3 11 24/warp Girl4 9 24/warp Girl5 17 24/warp Girl6 19 24/warp Guy1 13 27/warp Guy2 15 27/warp Guy3 11 27/warp Guy4 9 27/warp Guy5 17 27/warp Guy6 19 27/showFrame Girl1 40/showFrame Girl3 40/showFrame Girl5 40/showFrame Girl4 40/showFrame Girl2 40/showFrame Girl6 40/showFrame Guy6 44/showFrame Guy5 44/showFrame Guy4 44/showFrame Guy3 44/showFrame Guy2 44/showFrame Guy1 44/viewport 14 25 clamp true/pause 2000/playMusic FlowerDance/pause 600/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 9600/animate Girl1 false true 600 46 47/animate Girl6 false true 600 46 47/animate Girl3 false true 600 46 47/animate Girl5 false true 600 46 47/animate Girl4 false true 600 46 47/animate Girl2 false true 600 46 47/animate Guy5 false true 300 46 47/animate Guy6 false true 300 46 47/animate Guy3 false true 300 46 47/animate Guy2 false true 300 46 47/animate Guy4 false true 300 46 47/animate Guy1 false true 300 46 47/positionOffset Guy1 0 -2/positionOffset Guy6 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 7600/stopAnimation Girl3/stopAnimation Girl6/stopAnimation Girl5/stopAnimation Girl2/stopAnimation Girl1/stopAnimation Girl4/stopAnimation Guy3/stopAnimation Guy2/stopAnimation Guy6/stopAnimation Guy1/stopAnimation Guy5/stopAnimation Guy4/pause 3000/globalFade/viewport -1000 -1000/message \"Whew! That was fun.\"/waitForOtherPlayers festivalEnd/end"
+            }
+    }, 
     
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+            ],
+            "Value": "Jackal 7 33 down",
+            "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+            ],
+            "Value": "Jackal 23 22 left",
+            "Delimiter": "/"
+        }
+        ]
+    },
+
     {
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Jackal": "This strawberry jello is truly remarkable.$3"
+        "Jackal": "I'm gonna dance so hard. You won't even know what hit you.$k#$b#It'll be my shoes. They're gonna hit you.$h"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/spring24",
       "Entries": {
-        "Jackal": "I always do enjoy our little trips out into the forest.$1#$b#Kinda wish we did this more often with everyone.$3"
+        "Jackal": "Can you keep up with my dancing? Bet ya can't, loser. I love you!$h"
       },
       "When": {
         "Spouse": "Jackal"
       }
     },
     
+    //luau
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+          {
+          "Operation": "Append",
+          "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters"
+          ],
+          "Value": "Jackal 49 24 down",
+          "Delimiter": "/"
+          },
+          {
+          "Operation": "Append",
+          "Target": [
+              "Entries",
+              "MainEvent_additionalCharacters"
+          ],
+          "Value": "Jackal 46 12 left",
+          "Delimiter": "/"
+          }
+      ]
+      },
+
     {
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Jackal": "My mother and I just threw in some of our most expensive wine. It should make the soup taste delicious.$1#$e#I don't think any of the children can have any now though. Whoops.$2"
+        "Jackal": "I threw in some milk...what?#$e#Are you surprised I didn't put in something inedible?#$e#I'm dumb not stupid @."
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/summer11",
       "Entries": {
-        "Jackal": "We should sit next to each other and eat our soup!$4#$e#We can drink a glass of my mother's vintage wine with it!$1"
+        "Jackal": "I put in some Iridium milk, like usual. It's one of my favorites you know!"
       },
       "When": {
         "Spouse": "Jackal"
       }
     },
     
+    //moonlight jellies
+    { 
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Victor 41 36 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
     {
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Jackal": "These moonlight jellies travel here all the way from across the world.$3#$b#They were at the Fern Islands just a few months ago.$1"
+        "Jackal": "These jellies look like little sapphires, they're so beautiful. $h"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/summer28",
       "Entries": {
-        "Jackal": "I'd like to hold your hand while looking out at the moonlight jellies.$4#$e#I love you, @.$4"
+        "Jackal": "Hey hun! I wanna know what the sand is like in the moon jellies natural habitat, I bet it's pearlescent!$h"
       },
       "When": {
         "Spouse": "Jackal"
       }
     },
     
+    //fair
+    { 
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Jackal 19 77 right",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
     {
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Jackal": "That clown is only juggling one ball... How odd.$0#$e#I might go look at the grange displays soon. This is getting boring.$2#$e#Have you set your display up?$1"
+        "Jackal": "You should see my grange display! It's full of all my finest weapons.$7"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/fall16",
       "Entries": {
-        "Jackal": "Hey there, honey! I hope you do well in the grange display contest!$4"
+        "Jackal": "Hey hun! You should try and get me unbanned from the activities here.#$e#That clown deserved what he got."
       },
       "When": {
         "Spouse": "Jackal"
       }
+    },
+
+    //spirits eve
+    { 
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Jackal 52 35 up",
+          "Delimiter": "/"
+        }
+      ]
     },
     
     {
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Jackal": "Uhh... there's a skeleton monster patrolling in there by those graves.$2"
+        "Jackal": "So...Who brought the literal monster and expects me not to fight it?$u"
       }
     },
     {
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Jackal": "Be careful in there, honey! There's a monster!$7"
+        "Jackal": "Be careful in there, honey!"
       },
       "When": {
         "Spouse": "Jackal"
@@ -187,15 +353,41 @@
       "Action": "EditData",
       "Target": "data/festivals/fall27",
       "Entries": {
-        "Jackal": "These monsters are quite fascinating.$1#$e#Perhaps I'll try to converse with the Castle Village adventurers tonight...$0#$b#They're bound to have some cool adventuring stories.$3"
+        "Jackal": "Hm, interesting. I'll have to ask what's his face at the Guild how he captured it."
       }
     },
     
+    //ice fishing
+    { 
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Jackal 58 37 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Main-Event_additionalCharacters"
+          ],
+          "Value": "Jackal 73 42 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
     {
       "Action": "EditData",
       "Target": "data/festivals/winter8",
       "Entries": {
-        "Jackal": "I must say, I'm looking forward to seeing Willy show off his fishing skills.$1#$b#You can tell how talented he is. He's been fishing all of his life!$3"
+        "Jackal": "This festival is lame, Willy's job is literally fishing, how is anyone supposed to beat him. $9"
       }
     },
     {
@@ -209,11 +401,28 @@
       }
     },
     
+    //christmas
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Jackal 36 60 left",
+          "Delimiter": "/"
+        },
+      ]
+    },
+
     {
       "Action": "EditData",
       "Target": "data/festivals/winter25",
       "Entries": {
-        "Jackal": "I wonder if I should give them the gift now?$0#$e#Timing is everything!$1"
+        "Jackal": "I wonder if I could chuck my gift over in the right direction from here...Oh, hey @."
       }
     },
     {
