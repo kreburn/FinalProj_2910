@@ -13,6 +13,18 @@
       "Action": "EditImage",
       "Target": "Animals/White Chicken",
       "FromFile": "Assets/Chickens/BeigeChickenSprites.png"
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Animals/White Cow",
+      "FromFile": "Assets/Cows/NewWhiteCowSprites.png"
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Animals/Brown Cow",
+      "FromFile": "Assets/Cows/NewBrownCowSprites.png"
     }
 
   ]
