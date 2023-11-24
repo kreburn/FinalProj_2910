@@ -6,8 +6,8 @@
         "Action": "EditData",
         "Target": "Data/NPCDispositions",
         "Entries": {
-        "Jackal": "adult/rude/outgoing/positive/female/datable//Town/spring 18//Saloon 40 17/Jackal"
-                }
+        "Jackal": "adult/rude/outgoing/positive/female/datable//Town/spring 18//SeedShop 1 9/Jackal"
+        }
     },
 
     {
@@ -15,7 +15,7 @@
         "Action": "EditData",
         "Target": "Data/NPCGiftTastes",
         "Entries": {
-          "Jackal": "I’m going to kiss you on the mouth.$l/118 80 82 338 184/Oh this is sick!/-2 -12 -15 -28/Hm. Do better.$s/18 -24 -22/Wow, I hate it! I’m going to like you less from now on.$h/215 260 482 281/Oh? A gift? Thanks I suppose. Next time grab me some glass./330/"
+          "Jackal": "I’m going to kiss you on the mouth. $7#/118 80 82 338 184 186 436 438/Oh this is sick! $h/-2 -12 -15 -28/Hm. Do better. $s/18 -24 -22/Wow, I hate it! I’m going to like you less from now on. $h#/215 260 482 281/Oh? A gift? Thanks I suppose. Next time grab me some glass./330/"
         }
     },
 
@@ -75,11 +75,11 @@
         "give_pendant": "!!!$7#$b#You... you want to get married? Is this you proposing to me, @!?$l#$b#Oh my gosh I gotta tell Clint I’m moving out this is so exciting!!$h", 
         "rejectNPCA": "Uhh... no thanks, @.$0", 
         "rejectNPCB": "Yeah no way dude. $k#$e#Could you leave me alone now?", 
-        "reject_two_heartA":  "Yeah uh…this is awkward. I don’t feel the same.$7", 
+        "reject_two_heartA":  "Yeah uh…this is awkward. I don’t feel the same.$6", 
         "reject_two_heartB": "I don’t really know you all that well @, get those flowers out of my face and go home.$k#$b#Or go to the saloon. Drink your sorrows away or something.$9", 
         "reject_four_heartA": "I think you’re pretty cool but, I’m not so sure yet @. Sorry.", 
         "reject_four_heartB": "Oh um, no thank you. I can’t even commit to one favorite ore right now.$k#$b#Bummer.", 
-        "engageA": "Yikes. $9", 
+        "engageA": "Yikes. $6", 
         "engageB": "Oh so you’re a cheater, you filthy- censored$a#$e#%Her censored rage continues",  
         "marriedA": "@? What in the world are you doing? Just stop. $a", 
         "marriedB": "You want to marry me? You're already married, @.$a#$e#@. Are you drunk or something? Go away before I tell your spouse.$a", 
@@ -87,7 +87,7 @@
         "refusal_knownB": "It's a little too early for this, don't you think?$0#$e#I appreciate the thought, @.", 
         "refusal_botherA": "Uhh... It's still a no, @. Sorry.$0", 
         "refusal_botherB": "Perhaps some day.$1", 
-        "refusal_no_heartsA": "Hmph. I could make a better pendant than that. $9#$b#Where’d you get that anyway?", 
+        "refusal_no_heartsA": "Yikes. $6", 
         "refusal_no_heartsB": "So. Here's what's going to happen: I am going to walk away and pretend you never did that."
       }
     },
