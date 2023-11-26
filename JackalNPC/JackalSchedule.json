@@ -1,10 +1,7 @@
 {
-    "spring": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    "spring": "900 Beach 16 8 2/1400 Beach 9 13 3/1630 Saloon 26 18 2 drink_milk \"Strings\\schedules\\Jackal:drink.000\"",
     "summer": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
     "fall": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
     "winter": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
-    "rain": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
-
-    "Mountain_47_23": "I come here for the peace and quiet.",
-    "Saloon_Fri": "Business has been really good tonight. I'm pleased."
+    "rain": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1"
 }

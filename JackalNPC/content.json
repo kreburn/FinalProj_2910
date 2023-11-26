@@ -1,12 +1,29 @@
 {
-    "Format": "1.24",
+    "Format": "1.29.0",
+
+    "CustomLocations":[
+      {
+          "Name":"Custom_JackalHouse",
+          "FromMapFile": "assets/Maps/Custom_JackalHouse.tmx"           
+  }
+
+],
+
     "Changes": [
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Mountain",
+        "FromFile": "assets/Maps/Custom_Mountain.tmx",
+        "FromArea": { "X": 51, "Y": 12, "Width": 9, "Height": 11 },
+        "ToArea": { "X": 51, "Y": 12, "Width": 9, "Height": 11 }
+     },
+
     {
         "LogName": "1 Load Jackal Disposition",
         "Action": "EditData",
         "Target": "Data/NPCDispositions",
         "Entries": {
-        "Jackal": "adult/rude/outgoing/positive/female/datable//Town/spring 18//SeedShop 1 9/Jackal"
+        "Jackal": "adult/rude/outgoing/positive/female/datable//Town/spring 18//Custom_JackalHouse 7 5/Jackal"
         }
     },
 
@@ -31,6 +48,24 @@
         "Action": "Load",
         "Target": "Portraits/Jackal",
         "FromFile": "assets/Image/Jackal.png"
+    },
+
+    {
+      "LogName": "Jackal Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "drink_milk": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 18 18 19 19 19 18 18 19 19 19 18 18 18 17 17 16 16 16 16 16 16 16 16 16 16 16/16"
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Jackal",
+      "FromFile": "assets/ScheduleDialogue.json"
+
     },
 
     {
