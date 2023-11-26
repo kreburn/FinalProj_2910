@@ -1,8 +1,8 @@
 {
     "Name": "Jackal NPC",
     "Author": "Kacie",
-    "Version": "1.0.0",
-    "Description": "Moody girl",
+    "Version": "3.0.1",
+    "Description": "Adds the apprentice blacksmith, Jackal, to town!",
     "UniqueID": "Kacie.Jackal",
     "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"

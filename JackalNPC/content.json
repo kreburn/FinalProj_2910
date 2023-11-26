@@ -13,7 +13,7 @@
       {
         "Action": "EditMap",
         "Target": "Maps/Mountain",
-        "FromFile": "assets/Maps/Custom_Mountain.tmx",
+        "FromFile": "assets/Maps/Custom_Mountain_{{Season}}.tmx",
         "FromArea": { "X": 51, "Y": 12, "Width": 9, "Height": 11 },
         "ToArea": { "X": 51, "Y": 12, "Width": 9, "Height": 11 }
      },
@@ -23,7 +23,7 @@
         "Action": "EditData",
         "Target": "Data/NPCDispositions",
         "Entries": {
-        "Jackal": "adult/rude/outgoing/positive/female/datable//Town/spring 18//Custom_JackalHouse 7 5/Jackal"
+        "Jackal": "adult/rude/outgoing/positive/female/datable//Town/spring 18//Custom_JackalHouse 7 6/Jackal"
         }
     },
 

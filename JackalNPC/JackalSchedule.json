@@ -1,7 +1,23 @@
 {
-    "spring": "900 Beach 16 8 2/1400 Beach 9 13 3/1630 Saloon 26 18 2 drink_milk \"Strings\\schedules\\Jackal:drink.000\"",
+    //working days need idle animation
+    "spring_Mon": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    "spring_Tue": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    //Wed: spends day working at her house need animation for working
+    "spring_Wed": "700 Custom_JackalHouse 23 11 1 \"Strings\\schedules\\Jackal:blacksmithing.000\"/1300 Custom_JackalHouse 21 7 1/1700 Custom_JackalHouse 12 6 0",
+    //Work
+    "spring_Thu": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    //day off: goes to the beach to collect sand and then saloon to drink
+    "spring_Fri": "900 Beach 16 8 2/1400 Beach 9 13 3/1630 Saloon 26 18 2 drink_milk \"Strings\\schedules\\Jackal:drink.000\"",
+    //wanders around town, maybe mountains?
+    "spring_Sat": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    //spends day at graveyard
+    "spring_Sun": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+
+
     "summer": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
     "fall": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
     "winter": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
     "rain": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1"
 }
+
+//0 up 1 right 2 down 3 left
