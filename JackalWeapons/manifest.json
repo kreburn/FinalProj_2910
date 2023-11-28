@@ -1,0 +1,12 @@
+{
+    "Name": "Jackal's Weapon",
+    "Author": "Kacie",
+    "Description": "Adding a stained-glass sword for Jackal's 10 heart event",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.7.0",
+    "UniqueID": "Kacie.JackalsWeapon",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    }
+}
