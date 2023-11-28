@@ -6,7 +6,7 @@
 	"MinimumDamage": 50,
 	"MaximumDamage": 70,
 	"Knockback": 1.0,
-	"Speed": 10,
+	"Speed": 7,
 	"Accuracy": 100,
 	"Defense": 10,
 	"MineDropVar": 0,
