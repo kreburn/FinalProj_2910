@@ -92,15 +92,6 @@
     },
 
     {
-
-      "LogName": "Schedule Dialogue",
-      "Action": "Load",
-      "Target": "Strings/schedules/Jackal",
-      "FromFile": "assets/ScheduleDialogue.json"
-
-    },
-
-    {
       "LogName": "Unique Rejections",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jackal",
@@ -468,6 +459,23 @@
       },
       "When": {
         "Spouse": "Jackal"
+      }
+    },
+
+    {
+      "LogName": "Jackal two heart event",
+      "Action": "Load",
+      "Target": "Data/Events/Blacksmith",
+      "FromFile": "assets/JackalEvent.json"
+    },
+
+    //2 heart event - Trigger with 2 hearts, walk into blacksmith on Mon, Tue, or Thu
+    {
+      "LogName": "JackalEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Blacksmith",
+      "Entries": {
+        "778891/F/f Jackal 500/t 900 1600/d Wed Fri Sat Sun": "distantBanjo/8 11/farmer 200 200 0 Jackal 3 13 2/skippable/warp farmer 5 18 0/playSound doorClose/move farmer 0 -2 0/speak Jackal \"Well hey farmer, here to shop?$h\"/pause 500/move farmer -2 0 0/faceDirection farmer 2/pause 300/faceDirection farmer 3/pause 300/faceDirection farmer 1/pause 300/faceDirection farmer 0/pause 300/emote farmer 8/speak Jackal \"Yeah, of course you are!$h#$b#This here is the best shop in town. Y’know why?\"/pause 500/speak Jackal \"...This is when you’re supposed to answer:$9#$b#'Because you’re here, Jackal!'$h\"/emote farmer 28/speak Jackal \"Well, whatever. I’ve got some cool things here to sell… like this sword here! Isn’t she beautiful?\"/emote Jackal 20/speak Jackal \"How much? For you?\"/emote Jackal 40/pause 500/speak Jackal \"Only 50,000G!$h\"/emote farmer 12/pause 500/speak Jackal \"Too expensive?$9#$b#Yeah, that’s what Clint said too. I guess he’s right sometimes.$k#$b#I’m just not sure what else to do to make some more money off my projects, nobody in town really needs weapons right now.$s\"/move Jackal 0 -1 0/move Jackal 5 0 0 true/faceDirection Jackal 1/speak Jackal \"It won’t stop me though, I’ll keep making weapons. It’s my passion.\"/faceDirection Jackal 2/speak Jackal \"I should really get back to work, and so should you, farmer.$k#$b#Don’t worry, my offer still stands for those weapons if you’d like. I’ll even give you a friend’s discount!\"/pause 500/emote farmer 8/speak Jackal \"That’s right, if we’re friends, you pay me 5% extra! As a tip!$h\"/showFrame farmer 94/jump farmer/globalFade/viewport -1000 1000/end"
       }
     }
 
