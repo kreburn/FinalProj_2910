@@ -11,7 +11,7 @@
 	"Defense": 25,
 	"MineDropVar": 0,
 	"MineDropMinimumLevel": -1,
-	"ExtraSwingArea": -1,
+	"ExtraSwingArea": 2,
 	"CritChance": 0,
 	"CritMultiplier": 3,
 
