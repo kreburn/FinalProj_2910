@@ -1,23 +1,30 @@
 {
     //working days need idle animation
-    "spring_Mon": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
-    "spring_Tue": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    "spring_Mon": "610 Blacksmith 8 12 1 working/1300 Blacksmith 11 15 2/1600 Beach 9 13 3/1900 Custom_JackalHouse 23 11 1/2100 Custom_JackalHouse 21 7 1/2300 Custom_JackalHouse 7 6 0",
+    "spring_Tue": "610 Blacksmith 8 12 1 working/1300 Blacksmith 11 15 2/1600 Beach 9 13 3/1900 Custom_JackalHouse 23 11 1/2100 Custom_JackalHouse 21 7 1/2300 Custom_JackalHouse 7 6 0",
+
     //Wed: spends day working at her house need animation for working
-    "spring_Wed": "700 Custom_JackalHouse 23 11 1 \"Strings\\schedules\\Jackal:spring.000\"/1300 Custom_JackalHouse 21 7 1/1700 Custom_JackalHouse 12 6 0",
+    "spring_Wed": "700 Custom_JackalHouse 23 11 1 working \"Strings\\schedules\\Jackal:personalProjects.000\"/1300 Custom_JackalHouse 21 7 1/1700 Custom_JackalHouse 12 6 0",
+
     //Work
-    "spring_Thu": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    "spring_Thu": "610 Blacksmith 8 12 1 working/1300 Blacksmith 11 15 2/1600 Beach 9 13 3/1900 Custom_JackalHouse 23 11 1/2100 Custom_JackalHouse 21 7 1/2300 Custom_JackalHouse 7 6 0",
+
     //day off: goes to the beach to collect sand and then saloon to drink
     "spring_Fri": "900 Beach 16 8 2/1400 Beach 9 13 3/1630 Saloon 26 18 2 drink_milk \"Strings\\schedules\\Jackal:drink.000\"",
+
     //wanders around town, maybe mountains?
     "spring_Sat": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+
     //spends day at graveyard
-    "spring_Sun": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
+    "spring_Sun": "610 Town 43 90 3/2100 Custom_JackalHouse 7 6 0",
 
 
     "summer": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
     "fall": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
     "winter": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1",
-    "rain": "900 Beach 16 8 2/1400 Beach 9 13 3/1700 Town 73 101 1"
+
+    //she stays home on rainy days
+    "rain": "700 Custom_JackalHouse 23 11 1 working \"Strings\\schedules\\Jackal:personalProjects.000\"/1300 Custom_JackalHouse 21 7 1/1700 Custom_JackalHouse 12 6 0"
 }
 
 //0 up 1 right 2 down 3 left
