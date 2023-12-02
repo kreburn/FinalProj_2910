@@ -1,7 +1,7 @@
 {
     "Name": "Jackal NPC",
     "Author": "Kacie",
-    "Version": "3.1.1",
+    "Version": "3.2.1",
     "Description": "Adds the apprentice blacksmith, Jackal, to town!",
     "UniqueID": "Kacie.Jackal",
     "ContentPackFor": {
